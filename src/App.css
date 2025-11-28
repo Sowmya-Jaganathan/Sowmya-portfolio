@@ -1,0 +1,17 @@
+#root {
+  width: 100%;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background-color: var(--secondary-color);
+  z-index: 1000;
+  transition: width 0.1s ease-out;
+}
+
+.section {
+  scroll-margin-top: 80px;
+}
